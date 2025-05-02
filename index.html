@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio - Ganesh Sri Vardhan Medavarapu</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav>
+    <div class="logo">Ganesh Sri Vardhan Medavarapu</div>
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">Profile</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="hero">
+    <canvas id="bgCanvas"></canvas>
+    <div class="content">
+      <h1>Hello, I'm<br><span class="highlight" id="typed-name"></span></h1>
+      <p>A 19 year old, passionate and self-driven engineering student with strong interests in application development, problem-solving, and emerging technologies like Machine Learning, and Generative AI.</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <section id="about" class="section-container">
+    <h2 style="text-align: center;">About Me</h2>
+    <p>I'm a passionate web developer with a knack for creating stunning, user-friendly websites. With expertise in HTML, CSS, JavaScript, and modern frameworks, I bring ideas to life with clean code and beautiful designs.</p>
+  
+    <h3>Objective</h3>
+    <p>A highly motivated Computer Science Engineering student with a strong foundation in software development, algorithms, and data structures. Seeking an entry-level position to leverage my skills in coding, problem-solving, and teamwork.</p>
+  
+    <h3>Technical Skills</h3>
+    <ul type="disc">
+      <li>Programming Languages:
+        <ul type="circle">
+            <li>C</li>
+            <li>C++</li>
+            <li>Python</li>
+        </ul>
+      </li>
+      <li>Web Development:
+        <ul type="circle">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>ReactJS</li>
+            <li>ExpressJS</li>
+            <li>NodeJs</li>
+        </ul>
+      </li>
+      <li type="circle">Databases:
+        <ul>
+            <li>SQL</li>
+            <li>MongoDB</li>
+        </ul>
+      </li>
+      <li>Data Structures and Algorithms</li>
+    </ul>
+  </section>
+    <br>
+
+  <section id="education" class="section-container">
+    <h2 style="text-align: center;">Education</h2>
+    <div class="education-grid">
+      <div class="education-card">
+        <h3>10th Standard</h3>
+        <p><strong>School:</strong> Sasi English Medium High School, Kamavarapukota </p>
+        <p><strong>Year:</strong> 2020 </p>
+        <p><strong>Percentage:</strong> 100%</p>
+      </div>
+      <div class="education-card">
+        <h3>12th Standard</h3>
+        <p><strong>College:</strong> Sasi Junior College, Kamavarapukota</p>
+        <p><strong>Year:</strong> 2022</p>
+        <p><strong>Percentage:</strong> 97.4%</p>
+      </div>
+      <div class="education-card">
+        <h3>B.Tech</h3>
+        <p><strong>College:</strong> Gayatri Vidya Parishad College of Engineering, Madhurawada</p>
+        <p><strong>Year:</strong> 2026 (Expected)</p>
+        <p><strong>CGPA:</strong> 9.75</p>
+      </div>
+    </div>
+  </section>
+  <br>
+
+  <section id="projects" class="section-container">
+    <h2 style="text-align: center;">Projects</h2>
+    <div class="project-grid">
+      <div class="project-card interactive">
+        <h3>Spotify Data Analytics</h3>
+        <p class="short">An end-to-end AWS data pipeline analyzing Spotify data.</p>
+        <button class="toggle-btn">View More</button>
+        <div class="details hidden">
+          <p>This data engineering project successfully created an end-to-end pipeline for analyzing Spotify data using AWS services.</p>
+          <h4>Key Outcomes:</h4>
+          <ul>
+            <li>Efficient transformation of raw data into analysis-ready format.</li>
+            <li>Facilitated SQL queries to derive key insights.</li>
+            <li>Created dashboards that visualized important metrics.</li>
+          </ul>
+          <h4>Services Used:</h4>
+          <ul>
+            <li>AWS S3</li>
+            <li>AWS Glue</li>
+            <li>AWS Athena</li>
+            <li>AWS QuickSight</li>
+          </ul>
+        </div>
+      </div>
+      <div class="project-card interactive">
+        <h3>Portfolio Website</h3>
+        <p class="short">A personal portfolio showcasing skills, education, and interactive projects.</p>
+        <button class="toggle-btn">View More</button>
+        <div class="details hidden">
+          <p>This portfolio website serves as a digital representation of my profile, developed using modern web technologies with a focus on interactivity and responsive design.</p>
+          
+          <h4>Key Features:</h4>
+          <ul>
+            <li>Typing effect animation and animated backgrounds for engaging user experience.</li>
+            <li>Expandable project cards with detailed information toggle.</li>
+            <li>Responsive layout adaptable across mobile, tablet, and desktop devices.</li>
+            <li>Well-structured sections including Hero, About, Education, Projects, and Contact.</li>
+          </ul>
+      
+          <h4>Technologies Used:</h4>
+          <ul>
+            <li>HTML5, CSS3 (custom and responsive grid layout)</li>
+            <li>Vanilla JavaScript (for interactivity and animations)</li>
+            <li>Font Awesome (for social and icon integration)</li>
+          </ul>
+      
+          <p><strong>Built to reflect my personality, skills, and career aspirations through clean design and smooth UX.</strong></p>
+        </div>
+      </div>
+      
+      <div class="project-card interactive">
+        <h3>IoT Sensor Data on Blockchain</h3>
+        <p class="short">Decentralized logging of DHT sensor data using Ethereum blockchain and smart contracts.</p>
+        <button class="toggle-btn">View More</button>
+        <div class="details hidden">
+          <p>This project demonstrates secure and immutable storage of temperature and humidity data from a DHT sensor using Ethereum smart contracts.</p>
+      
+          <h4>Key Outcomes:</h4>
+          <ul>
+            <li>Established real-time communication between IoT device and blockchain.</li>
+            <li>Ensured data integrity and transparency through decentralized ledger.</li>
+            <li>Used smart contracts to validate and store sensor readings on-chain.</li>
+          </ul>
+      
+          <h4>Technologies Used:</h4>
+          <ul>
+            <li>Ethereum (Sepolia testnet)</li>
+            <li>Solidity (Smart contract development)</li>
+            <li>Remix IDE (Contract deployment and testing)</li>
+            <li>Raspberry Pi & DHT11 Sensor (Hardware interface)</li>
+            <li>Web3.js (JavaScript blockchain interaction)</li>
+          </ul>
+      
+          <p><strong>This project bridges the physical and digital world by linking IoT and blockchain for tamper-proof environmental data recording.</strong></p>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+<br>
+  <section id="contact" class="section-container">
+    <h2 style="text-align: center;">Contact Me</h2>
+    <div class="social-links" style="text-align: center;">
+        <a href="mailto:ganeshsrivardhan13@gmail.com">
+          <img src="email.webp" alt="Email" style="width: 40px; height: 40px;" />
+        </a>
+        <a href="https://www.linkedin.com/in/ganesh-sri-vardhan-medavarapu-3822a4291/">
+          <img src="./LinkedIn_logo_initials.webp" alt="LinkedIn" style="width: 40px; height: 40px;" />
+        </a>
+        <a href="https://github.com/GaneshSriVardhan">
+          <img src="./github_PNG32.webp" alt="GitHub" style="width: 50px; height: 50px;" />
+        </a>
+      </div>
+      
+  </section>
+  <br>
+
+  <script src="script.js"></script>
+</body>
+</html>
