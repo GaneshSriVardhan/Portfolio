@@ -15,6 +15,16 @@ nav {
     z-index: 1000;
 }
 
+#bgCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+}
+
 .logo {
     font-family: 'Lancelot', cursive;
     font-size: 1.5rem;
@@ -136,12 +146,4 @@ nav a {
     transition: box-shadow 0.3s ease-in-out;
 }
 
-#bgCanvas {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    width: 100vw;
-    height: 100vh;
-    pointer-events: none;
-}
+
