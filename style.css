@@ -101,7 +101,7 @@ nav a {
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.project-card:hover {
+.project-card:hover,.education-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 4px 20px rgba(255, 94, 120, 0.3);
 }
@@ -129,4 +129,19 @@ nav a {
 
 .social-links a:hover {
     color: #ff5e78;
+}
+
+.section-container:hover {
+    box-shadow: 0 0 25px rgba(255, 94, 120, 0.3);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+#bgCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
 }
