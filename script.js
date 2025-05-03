@@ -111,3 +111,4 @@ toggles.forEach(btn => {
     btn.textContent = details.classList.contains('hidden') ? "View More" : "Hide";
   });
 });
+
